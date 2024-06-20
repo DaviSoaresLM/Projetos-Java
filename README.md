@@ -1,1 +1,1 @@
-# Alguns Projetos para adquirir experiência.
+# Projetos para praticar meus conhecimentos.
