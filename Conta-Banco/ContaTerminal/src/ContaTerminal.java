@@ -4,7 +4,7 @@ public class ContaTerminal {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        // Ler me do cliente
+        // Ler nome do cliente
         System.out.println("Conta Bancária");
         System.out.println("Digite seu nome: ");
         String nomeDoCliente = scan.nextLine();
@@ -18,6 +18,7 @@ public class ContaTerminal {
         // Ler Número da Conta
         System.out.println("Digite o número da conta: ");
         int numeroDaConta = scan.nextInt();
+        scan.nextLine(); // Consome a nova linha pendente
         System.out.println("------------------------------------");
 
         // Ler Saldo Atual
@@ -25,11 +26,10 @@ public class ContaTerminal {
         double saldo = scan.nextDouble();
         System.out.println("------------------------------------");
 
-        System.out.println("Olá " + nomeDoCliente + ", obrigado por criar uma conta em nosso banco, sua agência é: "
-                + numeroDaAgencia + ", conta: " + numeroDaConta + "e seu saldo R$ " + saldo + " já está disponível para saque!");
+        System.out.println("Olá " + nomeDoCliente + ", obrigado por criar uma conta em nosso banco. Sua agência é: "
+                + numeroDaAgencia + ", conta: " + numeroDaConta + " e seu saldo R$ " + saldo
+                + " está disponível para saque!");
 
         scan.close();
-
     }
-
 }
