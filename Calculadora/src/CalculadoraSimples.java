@@ -18,9 +18,9 @@ public class CalculadoraSimples {
         System.out.println("Escolha uma operação ( + , - , * , / )");
         String operacao = scan.next();
 
-        double resultado = 0;
+        double resultado = 0; // Definindo resultado como 0 para evitar erro de compilação
 
-        switch (operacao) {
+        switch (operacao) { // Definindo os valores de cada operação dentro do switch case
             case "+":
                 resultado = n1 + n2;
                 break;
@@ -39,6 +39,7 @@ public class CalculadoraSimples {
                 System.out.println(" + , - , * , / ");
                 break;
         }
+        // Saída do resultado
 
         System.out.println("O resultado da operação é: " + resultado);
 
