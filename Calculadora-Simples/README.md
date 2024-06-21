@@ -1,4 +1,5 @@
 Descrição do Projeto: Calculadora Simples em Java
+
 Objetivo:
 O objetivo deste projeto é implementar uma calculadora simples em Java que permite ao usuário realizar operações básicas de matemática, como adição, subtração, multiplicação e divisão. A calculadora solicita ao usuário que insira dois números e escolha a operação desejada (+, -, *, /). Após o usuário fornecer os números e a operação, a calculadora exibe o resultado da operação escolhida.
 
